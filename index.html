@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es" data-dark="dark-mode">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalice.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ejercicios del DOM</title>
+</head>
+<body>
+    <header class="header">
+        <h1 id="ejerciciosDOM">DOM Ejercicios</h1>  
+    </header>   
+
+    <nav class="menu-true menu-false" id="desplegable"> 
+        <div class="nose"><a href="#reloj-alarma" class="seccion">Reloj - Alarma</a></div>
+        <div class="nose"><a href="#eventosDelTeclado" class="seccion">Eventos del Teclado</a></div>
+        <div class="nose"><a href="#seccion3" class="seccion">Cuenta Regresiva</a></div>
+        <div class="nose"><a href="#seccion4" class="seccion">Responsible Responsive Design</a></div>
+        <div class="nose"><a href="#seccion5" class="seccion">Resonsive Tester</a></div>
+        <div class="nose"><a href="#seccion6" class="seccion">Seccion 6</a></div>
+        <div class="nose"><a href="#seccion7" class="seccion">Seccion 7</a></div>
+        <div class="nose"><a href="#seccion8" class="seccion">Seccion 8</a></div>
+        <div class="nose"><a href="#seccion9" class="seccion">Seccion 9</a></div>
+        <div class="nose"><a href="#seccion10" class="seccion">Seccion 10</a></div> 
+    </nav>  
+    <div class="div-menu"> 
+        <div class="ocupa">
+            <div class="arrow no-ver" id="boton-flecha">
+                
+                <a href="#ejerciciosDOM">🔝<!-- <img src="img/flechablanca.png" alt="arrow-icon" class="flecha">--></a> 
+            </div>
+        </div>     
+        <nav class="menu" id="menu">
+            <div class="div"></div>
+            <div class="div"></div>
+            <div class="div"></div>
+        </nav>
+       <div class="darkmode" id="darkmode"><a href="#">🌙</a></div>
+    </div> 
+    <main class="secciones secciones-1" >
+        <h1 class="titulo" id="reloj-alarma">Reloj - Alarma</h1>
+        <section class="reloj-box">
+            
+            <div class="reloj" id="reloj">
+                <div class="watch" id="watch">00:00:00</div>
+            </div>
+            <div class="botones">
+                <button type="submit" class="btn iniciar" id="iniciar">Iniciar</button>
+                <button type="submit" class="btn parar" id="parar" disabled>Parar</button>
+                <button type="submit" class="btn iniciar-alarma" id="iniciar-alarma">Iniciar Alarma</button>
+                <button type="submit" class="btn parar-alarma" id="parar-alarma" disabled>Parar Alarma</button>
+            </div>
+            <audio src="audio/abba.mp3" id="audio" loop></audio>
+
+        </section>
+    </main>
+
+    <main class="secciones secciones-2" >
+        <h1 class="titulo" id="eventosDelTeclado">Eventos del Teclado</h1>
+        <section class="black-box" id="black-box">
+            <div class="pelota" id="pelota"></div>
+        </section>
+    </main>
+
+    <main class="secciones secciones-3">
+        <h1 id="seccion3" class="titulo">Cuenta Regresiva</h1>
+        <div class="countdown" id="countdown"></div>
+    </main>
+    
+    <main class="secciones secciones-4" >
+        <h1 id="seccion4" class="titulo">Responsible Responsive Design</h1>
+        <!-- <div class="arrow no-ver" id="boton-flecha">
+            <a href="#ejerciciosDOM"><img src="img/flechablanca.png" alt="arrow-icon" class="flecha"></a>
+        </div> -->
+    </main>
+    <main class="secciones secciones-5" >
+        <h1 id="seccion5" class="titulo">Responsive Tester</h1>
+        
+        <form id="formulario" class="formulario">
+            <input type="url" name="pagina"id="pagina" placeholder="URL" required>
+            <br><br>
+            <input type="text" name="ancho" id="ancho" placeholder="Ancho" maxlength="4" minlength="3" required>
+            <br><br>
+            <input type="text" name="alto" id="alto" placeholder="Alto" required>
+            <br><br>
+            <input name="probar" type="submit" value="Probar">
+            <input name="cerrar" type="button" value="Cerrar">
+        </form>
+        
+    </main>
+    <main class="secciones secciones-6" >
+        <h1 id="seccion6" class="titulo">Sección 6</h1>
+    </main>
+    <main class="secciones secciones-7" >
+        <h1 id="seccion7" class="titulo">Sección 7</h1>
+    </main>
+    <main class="secciones secciones-8" >
+        <h1 id="seccion8" class="titulo">Sección 8</h1>
+    </main>
+    <main class="secciones secciones-9" >
+        <h1 id="seccion9" class="titulo">Sección 9</h1>
+    </main>
+    <main class="secciones secciones-10" >
+        <h1 id="seccion10" class="titulo">Sección 10</h1>
+    </main>
+    
+
+    <script src="js/global.js" type="module"></script>
+</body>
+</html>
