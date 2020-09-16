@@ -1,0 +1,18 @@
+.black-box {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+  height: 60%;
+  background-color: #2a2a2a;
+}
+
+.pelota {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  background-color: #6f9e00;
+  border-radius: 2rem;
+}
+/*# sourceMappingURL=eventosteclado.css.map */

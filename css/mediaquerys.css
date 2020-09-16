@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/*  RESPONSIVE
+   ========================================================================= 
+
+/* Móviles en horizontal o tablets en vertical
+    ------------------------------------------------------------------------- */
+@media screen and (max-width: 767px) {
+  .menu {
+    top: 80vh;
+    left: 80vw;
+  }
+}
+
+/* Móviles en vertical
+    ------------------------------------------------------------------------- */
+@media screen and (max-width: 580px) {
+  .menu {
+    top: 80vh;
+    left: 80vw;
+  }
+  .reloj-box {
+    height: 40vh;
+  }
+  .reloj-box .reloj {
+    height: 30%;
+  }
+  .reloj-box .reloj .watch {
+    font-size: 2.5rem;
+  }
+  .reloj-box .botones {
+    -webkit-box-pack: stretch;
+        -ms-flex-pack: stretch;
+            justify-content: stretch;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .reloj-box .botones .btn {
+    width: 50%;
+    height: 50%;
+  }
+}
+/*# sourceMappingURL=mediaquerys.css.map */

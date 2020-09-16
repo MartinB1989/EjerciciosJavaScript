@@ -1,0 +1,130 @@
+@import "colores.scss";
+@import "header.scss";
+@import "desplegable.scss";
+@import "reloj.scss";
+@import "eventosteclado.scss";
+.mododark{
+    background-color: #000;
+}
+
+.div-menu{
+    position: fixed;
+    bottom: 1vh;
+    right:1vw;
+    z-index: 999;
+    
+
+
+    .ocupa{
+        width: 3.5rem;
+        height: 3.5rem;
+        margin-bottom:5px;
+
+    }
+}
+.secciones{
+    width: 100%;
+    height: 100vh;
+
+    h1{
+        text-align:center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:$gris;
+    }
+    .countdown{
+        margin: auto;
+        padding:3rem;
+        height: auto;
+        width: 50vw;
+        background-color: $gris;
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:$blanco;
+
+    }
+    
+    .formulario{
+        margin: auto;
+        // display:inline-block;
+        width: max-content;
+        height: max-content;
+        
+        }
+
+}
+
+.arrow{ 
+    font-size:2rem;
+    background-color: $verde;
+    // position:fixed;
+    // top:78vh;
+    // left:90vw;
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    z-index: 999;
+    transition: all 0.3s ease-out;
+
+    a{
+        color:$blanco;
+        text-decoration:none;
+    }
+
+
+    // .flecha{
+    //     height: 3.2rem;
+    //     width:3.5rem;
+    // }
+
+
+
+}
+
+.arrow:hover{
+    background-color: $blanco;
+    a{
+        color:$verde;
+    }
+}
+
+.no-ver{
+    visibility: hidden;
+    opacity: 0;
+    
+}
+
+.darkmode{  
+    
+    background-color: $verde;
+    position:fixed;
+    bottom:1vh;
+    left:1vw;
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    z-index: 999;
+    
+    a{
+        font-size: 2rem;
+        text-decoration-line:none ;
+    }
+    
+    // .div{
+    //     margin: 5%;
+    //     width: 80%;
+    //     height: 10%;
+    //     background-color: $blanco;
+    //     border-radius: 2px;
+    // }
+}
+
+@import "mediaquerys.scss";

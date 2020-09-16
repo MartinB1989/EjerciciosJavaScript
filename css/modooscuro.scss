@@ -1,0 +1,40 @@
+@import "colores2.scss";
+@import "header.scss";
+@import "desplegable.scss";
+@import "reloj.scss";
+@import "eventosteclado.scss";
+body{
+    background-color: $blanco;
+}
+
+.secciones{
+    width: 100%;
+    height: 100vh;
+
+    h1{
+        text-align:center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+.arrow{  
+    background-color: $verde;
+    position:fixed;
+    top:78vh;
+    left:90vw;
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    z-index: 999;
+
+    .flecha{
+        height: 3.2rem;
+        width:3.5rem;
+    }
+}
+
+@import "mediaquerys.scss";

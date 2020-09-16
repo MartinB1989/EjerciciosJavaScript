@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,UAAU,CAAA;EACN,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;EACb,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,GAAG;EACX,gBAAgB,ECHE,OAAO;CDM5B;;AACD,AAAA,OAAO,CAAA;EACH,QAAQ,EAAE,QAAQ;EACd,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,gBAAgB,ECbjB,OAAO;EDcN,aAAa,EAAE,IAAI;CAEtB",
+    "sources": [
+        "eventosteclado.scss",
+        "colores.scss"
+    ],
+    "names": [],
+    "file": "eventosteclado.css"
+}
